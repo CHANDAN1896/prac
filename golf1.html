@@ -1,0 +1,556 @@
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, intial-scale=1.0">
+        <title>Golf </title>
+
+
+        <link rel="stylesheet" href="style1.css">
+     	<!-- CSS only -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+<!-- JavaScript Bundle with Popper -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">	
+
+
+<style>
+  
+    .soc-cont{
+        margin-top: 10px;
+         height: auto; 
+    }
+    .soc-sub{
+   height: auto;
+   margin: auto;
+   display: flex;
+   justify-content: space-around;
+   flex-wrap: wrap;
+   padding: 30px;
+    width: auto;
+    }
+   
+ 
+
+    
+/*sports detail start*/
+
+#so-h{
+   padding: 20px;
+   background-color: #00acee;
+   text-align: center;
+   border-radius: 5px;
+   
+}
+
+#soc2{
+   background-color: #088178;
+}
+
+#b1{
+    width: 30%;
+    height: 50px;
+    
+    padding-top: 10px;
+
+    background: #088178;
+    color: white ;
+    text-decoration: none;
+    text-align: center;
+    border-radius: 5px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+@media(max-width:576px){
+   #b1{
+      height: 70px;
+   }
+}
+
+#b2{
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+    justify-content: space-around;
+   
+
+}
+#b3{
+    padding-top: 20px;
+    display: flex ;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+#b4{
+    width: 100%;
+    text-align: center;
+    height: 40px;
+    margin-top: 10px;
+    background: red;
+    color: white;
+    border-radius: 5px;
+    padding-top: 10px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+}
+
+#app{
+  text-align: center;
+ 
+}
+
+.bk{
+  width: 90%;
+  border-bottom: 2px solid gray;
+  height: 50px;
+  padding: 20px;
+  margin: 20px;
+}
+#fid{
+  
+  color: black;
+  text-decoration: dotted;
+  font-size: 20px;
+
+}
+/*sports detail end*/
+
+
+</style>
+
+    
+    </head>
+
+    <body>
+
+
+      
+  <!-- Modal -->
+  <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+         <h2> what is financial Aid?</h2>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+        <b>Those who are not capable to pay full fees they can apply for this.</b><br><br>
+
+          <b>Financial aid is to help who want to grow and upgrade his skills in Sports but don't have good financial background
+             we provide them help by giving them training free of cost .</b><br><br>
+
+            <b>It will take 15-20 days for verification</b><br><br>
+
+            <p>Hope this is helpful to you</p>
+        
+      
+        </div>
+       
+      </div>
+    </div>
+  </div>
+
+
+
+        
+<section  class="soc-cont"   >
+    
+    
+        <div class="soc-sub">
+         <div class="child2">
+            <div  id="soc1" >
+                <img src="css/gol.jpg" style="width: 450px; height: 500px;">
+                 <center> <a href="fin_aid.php" target="_blank" id="fid" class="gam">Financial aid Available</a>  <i data-bs-toggle="modal" data-bs-target="#staticBackdrop"><i class="fa-solid fa-circle-question "></i> </i></center>
+                 <center><div><p id="pay" class="gam"  ><b><a href="https://rzp.io/l/p9ABbzNfl" style="text-decoration: none; color: rgb(5, 12, 18);">&#x20B9 500/month</a></b> </p> </div></center>
+                          
+                          </div>
+                    </div>
+      
+
+   
+
+
+    
+    
+        <div class="child2"  >
+            <div  id="soc2 ">
+                
+                <h2 id="so-h">Golf</h2>
+               <center><h3>Golf Training</h3></center> 
+               <div style="padding-left: 20px; ">
+                <p><b> We have  1 ground for training. </b></p>
+                <p><b> 2 Specialist Trainers for training.</b></p>
+                <p><b> 1 Batch of 9+ students for Golf training. </b></p>
+                <p><b> On every sunday we play Golf match.  </b></p>
+                </div>
+              
+                <div id="b2">
+                    <a href="#"  id="b1" data-bs-toggle="modal" data-bs-target="#exampleModal"> Book an Appointment</a>
+
+                        <!-- Button trigger modal -->
+
+  
+  
+<!-- Modal -->
+<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h1 class="modal-title fs-5"  id="exampleModalLabel" >Book an Appointment</h1>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <div id="app">
+        
+          <form class="form-field" action="appoin1.php" method="post"> 
+            <input type="text" class="bk" name="name" placeholder="Enter Your Name" required>
+            <input type="email"class="bk" name="email"  placeholder="Enter Your Email" required>
+            <input type="text" pattern="[6789][0-9]{9}" name="sno" placeholder="Enter Mobile No" class="bk" required>
+            
+           
+            <input type="checkbox" required>&nbsp;    I want an appointment to get more info about your Academy. 
+            <button type= "submit" class=" so " style="background: #24a0ed;"> Submit</button>	
+            
+            </form>   
+
+      </div>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+                    
+                    <a href="fill.php" class="gam"  id="b1">Fill form</a>
+                </div>
+
+                <div id="b3">
+                <b>Training Timing : 9:00 am to 12:00 pm</b>&nbsp;&nbsp;&nbsp;
+                <b>Practice Timing : 5:00 pm to 8:00 pm</b>
+               </div>
+
+               <p id="b4">For further more detail book an appointment for ground visit</p>
+
+             </div>
+       
+        </div>
+    </div>
+</section>
+
+
+
+
+
+
+
+
+
+            <!-- carousel start-->
+
+          
+
+
+            <div id="carouselExampleDark" class="carousel carousel-dark slide" data-bs-ride="carousel" style="height:400px;"> 
+               
+                <div class="carousel-inner" style="padding: 20px;">
+                  <div class="carousel-item active" data-bs-interval="10000"  >
+                    <img src="css/gol1.jpg" width="100%" height="100%" class="d-block w-100" alt="..."  >
+                 
+                  
+                  </div>
+                  <div class="carousel-item" data-bs-interval="2000">
+                    <img src="css/gol3.jpeg" width="100%" height="100%" class="d-block w-100" alt="...">
+                   
+                  </div>
+                  <div class="carousel-item">
+                    <img src="css/gol2.jpg" width="100%" height="100%" class="d-block w-100" alt="...">
+                   
+                  </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true" ></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true" ></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
+              </div>
+
+
+
+    
+<!-- carousel end-->
+        
+
+
+
+
+       
+
+        
+<!--sports page start-->
+<h2 id="head1" style="margin-top: 50px;"> Other popular sports in our Academy<span style="color: #088178; font-size:x-large;">●</span></h2>
+<section id="feature" class="section-p1">
+    
+    <div class="fe-box">
+        <div class="line">
+         <div class="card1">
+        <img src="css/jl.jpg" alt="">
+        <a href="Javelin1.html"><h6>Javelin Throw</h6></a>
+        
+        </div>
+        </div>
+
+    </div>
+
+
+    <div class="fe-box">
+        <div class="line">
+        <div class="card1">
+        <img src="css/hk.jpeg" alt="">
+        <a href="hockey1.html"><h6>Hockey</h6></a>
+       
+        </div>
+        </div>
+    </div>
+
+    
+    <div class="fe-box">
+        <div class="line">
+        <div class="card1">
+        <img src="css/cric.png" alt="">
+       <a href="cricket1.html"> <h6>Cricket</h6></a>
+        
+        </div>
+        </div>
+    </div>
+
+    <div class="fe-box">
+        <div class="line">
+        <div class="card1">
+        <img src="css/fb.jpg" alt="">
+        <a href="soccer1.html"><h6>Football</h6></a>
+        
+    </div>
+    </div>
+
+    </div>
+
+    <div class="fe-box">
+        <div class="line">
+        <div class="card1">
+        <img src="css/bm.jpg " alt="">
+        <a href="badminton1.html"><h6>Badminton</h6></a>
+              </div>
+        </div>
+
+    </div>
+
+    <div class="fe-box">
+        <div class="line">
+        <div class="card1">
+        <img src="css/vb.png " alt="">
+        <a href="volleyball1.html"><h6>Volleyball</h6></a>
+
+        </div>
+        </div>
+    </div>
+
+   
+<div id="hide1" >
+    <div>
+    <div class="hidden" >
+
+    <div class="fe-box"  >
+        <div class="line">
+        <div class="card1">
+        <img src="css/kb.svg" alt="">
+        <a href="kabbadi1.html"><h6>kabbadi</h6></a>
+        
+        </div>
+        </div>
+
+    </div>
+
+
+        
+    <div class="fe-box" >
+        <div class="line">
+        <div class="card1">
+        <img src="css/fc.png" alt="">
+        <a href="fencing1.html"><h6>Fencing</h6></a>
+        
+        </p>
+        </div>
+        </div>
+    </div>
+
+
+
+    <div class="fe-box" >
+        <div class="line">
+        <div class="card1">
+        <img src="css/kho2.png" alt="">
+        <a href="kho1.html"><h6>Kho-Kho</h6></a>
+        
+        </div>
+        </div>
+    </div>
+
+    
+    <div class="fe-box" >
+        <div class="line">
+        <div class="card1">
+        <img src="css/ten.jpeg" alt="">
+        <a href="tennis1.html"><h6>Tennis</h6></a>
+
+        </div>
+        </div>
+    </div>
+
+
+    
+    <div class="fe-box" >
+        <div class="line">
+        <div class="card1">
+        <img src="css/tt.png" alt="">
+        <a href="tt1.html"><h6>Table-Tennis</h6></a>
+       
+        </div>
+        </div>
+    </div>
+
+
+    <div class="fe-box"   >
+        <div class="line">
+        <div class="card1">
+        <img src="css/box.jpg" alt="">
+        <a href="boxing1.html"><h6>Boxing</h6></a>
+                </div>
+       </div>
+    </div>
+   </div>
+   </div>
+</div>
+</section>
+<center><button id="toggle" >View more</button></center>
+
+<script>
+	const targetDiv = document.getElementById("hide1");
+const btn = document.getElementById("toggle");
+btn.onclick = function () {
+  if (targetDiv.style.display !== "none") {
+    targetDiv.style.display = "none";
+    toggle.innerHTML = "View more";
+  } else {
+    targetDiv.style.display = "block";
+    toggle.innerHTML = "view less";
+  }
+};
+</script>
+
+<!-- sports page end-->
+
+
+  
+  <!-- footer -->
+<!-- footer start -->
+
+
+
+<footer>
+
+  <div class="foo1">
+      <a  class="logo" href="home.php"> Sports Academy</a>
+          <h4>Contact Us</h4>
+          <p><strong>Address: </strong>Kamraj Nagar, Ghatkopar(E), Sports Academy.</p>
+          <p><strong>Phone No: </strong>9082428735</p>
+          <a href="mailto:asports429@gmail.com" style="text-decoration: none; color: black;"><p><strong> Email: </strong> asports429@gmail.com</p></a>
+          <p><strong>Avilability:</strong>24/7</p>
+
+
+
+          
+          <div class="follow_us" >
+              <h4>Follow us on Social Media</h4>
+
+              <div class="icons">
+                <a id="foota" href="https://www.youtube.com/@acpsachingaming8986"><i class="fa-brands fa-youtube fa-2x"></i></a>
+                 <a id="foota" href="https://www.twitter.com/@SportsA60948427"> <i class="fa-brands fa-twitter fa-2x"></i></a>
+                 <a id="foota" href="https://www.facebook.com/profile.php?id=100030685280523"> <i class="fa-brands fa-facebook fa-2x"></i></a>
+                 <a id="foota" href="https://www.instagram.com/chandangupta9294/"> <i class="fa-brands fa-square-instagram fa-2x" ></i></a>
+              </div>    
+
+  </div>
+
+  </div>
+</div>
+
+  <div class="foo1" >
+
+                      <center><h4>About</h4><br></center>
+           <ul>
+                      
+         <li> <a href="about.php" id="foota">About Us</a></li>
+         <li> <a href="sports.php" id="foota">our sports</a></li>
+          <li><a href="privacy.html" id="foota">Privacy Policy</a></li>
+         <li> <a href="tc.html" id="foota">Terms & Conditions</a></li>
+         <li> <a href="contact.php" id="foota">Contact Us</a></li>
+     </ul>
+      
+
+  </div>
+
+  <div class="foo1" >
+
+
+         <center> <h4> Timing </h4><br></center>
+          <ul>
+
+         
+              <li id="tm">Mon :5:30am-8:30pm</li>
+              <li id="tm">Tue :5:30am-8:30pm</li>
+              <li id="tm">Wed :5:30am-8:30pm</li>
+              <li id="tm">Thu :5:30am-8:30pm</li>
+              <li id="tm">Fri :5:30am-8:30pm</li>
+              <li id="tm">Sat :5:30am-6:30pm</li>
+              <li id="tm">Sun : closed</li>
+     </ul>
+      
+
+  </div>
+
+
+  <div class="foo1">
+      <h4>Install our App</h4>
+<p>From Google Play Store or App Store</p>
+<div class="row">
+<img src="css/gp1.png" style="height:70px; width: 300px;">
+<img src="css/as.png" style="height:70px; width: 300px;">
+</div>
+<p>Secured Payment Options</p>
+<img src="css/pg.png" style="height:150px; width: 400px;">
+
+</div>
+
+
+  </div>
+</footer>
+
+  <center> 
+      <div class="copyright">
+      <p>All right reserved &#169; 2023 Sports Academy</p>
+
+  </div>
+</center>
+
+
+    </body>
+</html>

@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>navbar</title>
+
+
+  <!-- external css link -->
+
+  <link rel="stylesheet" type="text/css" href="style1.css">
+
+ 
+
+
+
+   
+        <!-- link for font awesome icons -->
+    
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">	
+
+     <!--script for nav bar-->
+        <script src="https://code.jquery.com/jquery-3.3.1.js"></script>
+
+
+        
+
+
+      
+
+
+  
+</head>
+<body>
+
+
+
+    
+ 
+  <section id="header">
+    <a  class="logo" href="home1.html"> Sports Academy</a>
+
+    <div>
+        <ul id="navbar">
+            <li><a href="home1.html" ><i class="fa-solid fa-house"></i> Home</a></li>
+            <li><a href="sports.html"><i class="fa-solid fa-money-check-dollar"></i> Sports</a></li>
+            <li><a href="fill.html"><i class="fa-solid fa-blog"></i> Fill form</a></li>
+            <li><a href="about.html"><i class="fa-solid fa-address-card"></i> About</a></li>
+            <li><a class="active" href="contact.html"><i class="fa-solid fa-envelope-circle-check"></i> Contact Us</a></li>
+            <li><a href="login.php"><i class="fa-solid fa-sign-in"></i> Login</a></li>
+            
+            <p id="close"><i class="fa fa-times"></i> </p>  
+           
+        </ul>
+
+    </div>
+    <div id="mobile">
+      
+        <i id="bar" class="fas fa-outdent"> </i>
+    </div>
+
+    <!-- responsive hamberger icon code -->
+
+   
+</section>
+
+
+
+
+ 		<!-- contact us form-->
+     <h2 id="head1" style="margin: 0px; padding: 0px;"> Contact us<span style="color:#088178; font-size:x-large;">●</span></h2>
+ 	<div class="grandparent" style="margin: 0px; padding: 0px;">
+ 	<div class="parent">
+	<div class="child">
+
+
+    <form class="form-field" style="width: 400px;" action="con.php" method="post">
+      <input type="text" class="so" name="name" placeholder="Name*" required>
+      <input type="email"class="so" name="email"  placeholder="Email*" required>
+      
+      <input type="text" name="mno" pattern="[6789][0-9]{9}" class="so" placeholder="Mobile no*" required>
+      
+      
+       <label style="width: 100%; 	padding: 10px 0 10px 5px; ">Are you an existing customer ?</label><br>
+      <input style="margin-left:15px; margin-top: 10px; "type="radio" id="yes" value="yes" name="you"  required>
+       <label for="yes">Yes</label>
+       <input style="margin-left:15px; margin-top: 10px;" type="radio" id="no"  name="you" value="no" required>
+      
+      <label for="no">No</label>
+      
+      <textarea name="feed" placeholder="Feedback" class="so" required></textarea>
+      
+      
+      
+      <button type= "submit" class=" so " style="background: #24a0ed;"> Submit</button>	
+      
+      </form>               
+</div>
+	<!-- mapping-->
+
+<div class="child">
+     <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3770.823465592223!2d72.91017551485119!3d19.071497787090518!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7c63b33a3864f%3A0xb7b49649d867149!2sKamraj%20Nagar%20Police%20Chowki!5e0!3m2!1sen!2sin!4v1646657711658!5m2!1sen!2sin"  style="border:0; width:600px; height:100%; padding-top: 20px;" allowfullscreen="" loading="lazy"></iframe>
+    </div>
+  </div>
+</div>
+       
+
+
+
+
+<div class="grandparent1" id="icon" style="padding:50px  0 20px 0; ">
+<div class="parent1">	
+<div class="child1">
+	
+  <a href="mailto:asports429@gmail.com" style="text-decoration: none; color: #353232  ; ">
+<i class="fa-solid fa-envelope fa-7x " id="icons" style="margin-bottom: 10px;"></i>
+	   
+  <p class="text-justify-center to "> <i> for further enquires mail us at<span style="color:#088178; font-size:medium;">●</span> </i> <br>
+  							<b>Email id: asports429@gmail.com</b></p></a>
+	</div>
+
+	<div class="child1">
+   <a id="map1"  href="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3770.823465592223!2d72.91017551485119!3d19.071497787090518!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7c63b33a3864f%3A0xb7b49649d867149!2sKamraj%20Nagar%20Police%20Chowki!5e0!3m2!1sen!2sin!4v1646657711658!5m2!1sen!2sin"><i class="fas fa-map-marker-alt fa-7x "id="icons" style="margin-bottom: 10px;" ></i></a>
+  <p class="text-justify-center to" > <i> Our main branch is located at :</i> <br>
+
+  							<b>India , Maharastra<br>
+  							Ghatkopar(E) , Mumbai-400077<span style="color:#088178; font-size:medium;">●</span>
+  							</b>
+  							 </p>
+	</div>
+	<div class="child1">
+  <a id="map1" href="home1.html"><i  style="color: #353232  ;" class="fas fa-comments fa-7x " id="icons chat" style="margin-bottom: 10px;" ></i></a>
+	   <p class="text-justify-center"><b  style="color: #353232  ;">Ask your doubt<span style="color:#088178; font-size:medium;">●</span></b></p>
+     <p>for any kind of problem or issue you can ask with our chatbot. </p>
+
+	</div>
+</div>
+</div>
+
+
+<!-- Donation-->
+<div class="grandparent">
+  <h2 id="head1"> Donate us<span style="color:#088178; font-size:x-large;">●</span></h2>
+  <h3 id="head1" style="margin-top: 50px;"> Some Popular Sports<span style="color:#088178; font-size:x-large;">●</span></h3>
+  <div class="parent">
+    <div class="child1">
+     <p style="margin-top: 30px;"><i class="fa-solid fa-hand-holding-dollar fa-10x"></i></p>
+     <h4 style="margin-top: 20px;">Donate on this Number: 9082428735</h4>
+     </div>
+     <div class="child1">
+      <img src="css/paytm.jpeg" width="200px" height="200px">
+      <h4>Scan this QR for Donation</h4>
+     </div>
+     <div class="child1">
+      <img src="css/paytm.jpeg" width="200px" height="200px">
+     </div>
+  </div>
+</div>
+
+
+
+
+  <!-- footer -->
+<!-- footer start -->
+
+
+
+<footer>
+
+  <div class="foo1">
+      <a  class="logo" href="home1.html"> Sports Academy</a>
+          <h4>Contact Us</h4>
+          <p><strong>Address: </strong>Kamraj Nagar, Ghatkopar(E), Sports Academy.</p>
+          <p><strong>Phone No: </strong>9082428735</p>
+          <a href="mailto:asports429@gmail.com" style="text-decoration: none; color: black;"><p><strong> Email: </strong> asports429@gmail.com</p></a>
+          <p><strong>Avilability:</strong>24/7</p>
+
+
+
+          
+          <div class="follow_us" >
+              <h4>Follow us on Social Media</h4>
+
+              <div class="icons">
+                <a id="foota" href="https://www.youtube.com/@acpsachingaming8986"><i class="fa-brands fa-youtube fa-2x"></i></a>
+                 <a id="foota" href="https://www.twitter.com/@SportsA60948427"> <i class="fa-brands fa-twitter fa-2x"></i></a>
+                 <a id="foota" href="https://www.facebook.com/profile.php?id=100030685280523"> <i class="fa-brands fa-facebook fa-2x"></i></a>
+                 <a id="foota" href="https://www.instagram.com/chandangupta9294/"> <i class="fa-brands fa-square-instagram fa-2x" ></i></a>
+              </div>    
+
+  </div>
+
+  </div>
+</div>
+
+  <div class="foo1" >
+
+                      <center><h4>About</h4><br></center>
+           <ul>
+                      
+         <li> <a href="about.html" id="foota">About Us</a></li>
+         <li> <a href="sports.html" id="foota">our sports</a></li>
+          <li><a href="privacy.html" id="foota">Privacy Policy</a></li>
+         <li> <a href="tc.html" id="foota">Terms & Conditions</a></li>
+         <li> <a href="contact.html" id="foota">Contact Us</a></li>
+     </ul>
+      
+
+  </div>
+
+  <div class="foo1" >
+
+
+         <center> <h4> Timing </h4><br></center>
+          <ul>
+
+         
+              <li id="tm">Mon :5:30am-8:30pm</li>
+              <li id="tm">Tue :5:30am-8:30pm</li>
+              <li id="tm">Wed :5:30am-8:30pm</li>
+              <li id="tm">Thu :5:30am-8:30pm</li>
+              <li id="tm">Fri :5:30am-8:30pm</li>
+              <li id="tm">Sat :5:30am-6:30pm</li>
+              <li id="tm">Sun : closed</li>
+     </ul>
+      
+
+  </div>
+
+
+  <div class="foo1">
+      <h4>Install our App</h4>
+<p>From Google Play Store or App Store</p>
+<div class="row">
+<img src="css/gp1.png" style="height:70px; width: 300px;">
+<img src="css/as.png" style="height:70px; width: 300px;">
+</div>
+<p>Secured Payment Options</p>
+<img src="css/pg.png" style="height:150px; width: 400px;">
+
+</div>
+
+
+  </div>
+</footer>
+
+  <center> 
+      <div class="copyright">
+      <p>All right reserved &#169; 2023 Sports Academy</p>
+
+  </div>
+</center>
+
+<script src="js/script.js"></script>
+</body> 
+
+
+</html>
